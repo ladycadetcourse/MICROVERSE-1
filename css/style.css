@@ -1,0 +1,8 @@
+body {
+    
+    font-size: 0.5rem;
+    font-weight: 350;
+    line-height: 2;
+    color: var(--color-white);
+    margin: 0;
+  }
