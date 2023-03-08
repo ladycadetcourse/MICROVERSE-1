@@ -12,3 +12,9 @@ body {
     align-items: center;
     display: flex;
   }
+
+  form {
+    background: var(--color-darkblue);
+   
+    border-radius: 0.5rem;
+  }
