@@ -28,7 +28,7 @@ required/>
   </form>
   <div>
 <label id="Email" for="Email">Email</label>
-<input type="email" name="Email"placeholder="Email Please"
+<input type="email" pattern="[^ @]*@[^ @]*" name="Email"placeholder="Email Please"
 required/>
 </div>
 <form>
@@ -40,15 +40,25 @@ required/>
 </div>
 
 <div>
-  <p>What is your favorite feature of freeCodeCamp?</p>
+  <p>Which option best describes your current role?</p>
   <select name="mostLike" class=" required">
     <option disabled selected value>Select an option</option>
-    <option value="challenges">Challenges</option>
-    <option value="projects">Projects</option>
-    <option value="community">Community</option>
-    <option value="openSource">Open Source</option>
+    <option value="Student">Student</option>
+    <option value="Full Time Job">Full Time Job</option>
+    <option value="Full Time Learned">Full Time Learned</option>
+    <option value="Prefer Not To Say">Prefer Not To Say</option>
+    <option value="Other">Other</option>
   </select>
 </div>
+
+<ul>Would you recommend freeCodeCamp to a friend?</ul>
+  <input type="radio" id="Definitely" name="fav_language" value="Definitely">
+  <label for="Definitely">Definitely</label><br>
+  <input type="radio" id="Maybe" name="Would you recommend freeCodeCamp to a friend?" value="Would you recommend freeCodeCamp to a friend?">
+  <label for="Maybe">Maybe</label><br>
+  <input type="radio" id="Not sure" name="fav_language" value="Not sure">
+  <label for="Not sure">Not sure</label>
+</form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   
 
