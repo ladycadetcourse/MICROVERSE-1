@@ -33,12 +33,14 @@ required/>
 </div>
 <form>
   <div class="form">
-  <label id="Age (optional)" for="Age (optional)">Age
+  <label id="Age (optional)"Quantity (between 10 and 100): for="Age (optional)">Age (Optional)
     </label>
-<input type="text" name="Age (Optional)" id="microverse-name" placeholder="Age"
+<input type="text" id="quantity" name="quantity" min="10" max="100" name="Age (Optional)" id="microverse-name" placeholder="Age (Optional)"
 required/>
+    </form>
 </div>
 
+<form>
 <div>
   <p>Which option best describes your current role?</p>
   <select name="mostLike" class=" required">
@@ -50,8 +52,11 @@ required/>
     <option value="Other">Other</option>
   </select>
 </div>
+</form>
 
-<ul>Would you recommend freeCodeCamp to a friend?</ul>
+
+<form>
+  <ul>Would you recommend freeCodeCamp to a friend?</ul>
   <input type="radio" id="Definitely" name="fav_language" value="Definitely">
   <label for="Definitely">Definitely</label><br>
   <input type="radio" id="Maybe" name="Would you recommend freeCodeCamp to a friend?" value="Would you recommend freeCodeCamp to a friend?">
@@ -59,6 +64,18 @@ required/>
   <input type="radio" id="Not sure" name="fav_language" value="Not sure">
   <label for="Not sure">Not sure</label>
 </form>
+
+<form>
+<ul>What would you like to see improved? (Check all that apply)</ul>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form>
+
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   
 
